@@ -1,0 +1,52 @@
+.btn-outline-success {
+  color: chocolate;
+  border-color: chocolate;
+}
+
+.btn-outline-success:hover {
+  background-color: chocolate;
+  border-color: chocolate;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}
+
+.first-line {
+  border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+  text-decoration: none;
+  color: white;
+}
+
+.third-line {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+
+  .second-line {
+    border-bottom: 1px solid #392d23;
+  }
+
+  .third-line {
+    display: block;
+  }
+}
